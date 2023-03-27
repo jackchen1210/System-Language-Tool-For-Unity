@@ -1,0 +1,20 @@
+{
+    "name": "Core.SystemLanguageTool.EditorWindow",
+    "rootNamespace": "",
+    "references": [
+        "GUID:53400c1da14c59f47a5c53896ce77f41",
+        "GUID:1dc1e166dc571fe49ad241c61d7c6ef2",
+        "GUID:4fcad941e88f22145b4d526e72222fa3"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

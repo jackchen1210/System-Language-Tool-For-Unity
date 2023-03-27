@@ -1,0 +1,27 @@
+{
+    "name": "Core.SystemLanguageTool",
+    "rootNamespace": "",
+    "references": [
+        "GUID:37b4f835c353dce4c957fdbafe0b7904",
+        "GUID:1dc1e166dc571fe49ad241c61d7c6ef2",
+        "GUID:560b04d1a97f54a4e82edc0cbbb69285",
+        "GUID:9069ac25d95ca17448a247f3bb1c769f",
+        "GUID:4fcad941e88f22145b4d526e72222fa3",
+        "GUID:2ca3ab523913e6742aa44f3bfb1e4521",
+        "GUID:aec4804a7648297439b16d241448ec53"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "CsvHelper.dll",
+        "Newtonsoft.Json.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

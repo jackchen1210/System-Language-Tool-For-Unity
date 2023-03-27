@@ -1,0 +1,27 @@
+{
+    "name": "Core.SystemLanguageTool.Test",
+    "rootNamespace": "",
+    "references": [
+        "GUID:0acc523941302664db1f4e527237feb3",
+        "GUID:27619889b8ba8c24980f49ee34dbb44a",
+        "GUID:53400c1da14c59f47a5c53896ce77f41",
+        "GUID:37b4f835c353dce4c957fdbafe0b7904",
+        "GUID:1dc1e166dc571fe49ad241c61d7c6ef2",
+        "GUID:4fcad941e88f22145b4d526e72222fa3"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll",
+        "Newtonsoft.Json.dll",
+        "Sirenix.OdinInspector.Attributes.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

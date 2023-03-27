@@ -1,0 +1,575 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1726182683, guid: a4865f1ab4504ed8a368670db22f409c, type: 3}
+  m_Name: AOTGenerationConfig
+  m_EditorClassIdentifier: 
+  automateBeforeBuilds: 0
+  deleteDllAfterBuilds: 1
+  AutomateForAllAOTPlatforms: 1
+  automateForPlatforms: 0900000014000000
+  lastScan: 637858957983518193
+  supportSerializedTypes:
+  - TypeName: Core.DebugInfo, Assembly-CSharp
+    IsCustom: 1
+    Emit: 0
+  - TypeName: Core.LoginGameInfo, Assembly-CSharp
+    IsCustom: 1
+    Emit: 0
+  - TypeName: Core.LoginInfoData, Assembly-CSharp
+    IsCustom: 1
+    Emit: 0
+  - TypeName: System.Action`1[[System.Int64, mscorlib]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnityEngine.AnimationClip, UnityEngine.AnimationModule
+    IsCustom: 0
+    Emit: 1
+  - TypeName: AfternoonTea.BonusUnitSpine, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[AfternoonTea.GameKey_1012,
+      Assembly-CSharp],[AfternoonTea.BonusUnitSpine, Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[SGCore.LBCategory, Assembly-CSharp],[SGCore.LBContent,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[SGCore.LBCategory, Assembly-CSharp],[UnityEngine.UI.Toggle,
+      UnityEngine.UI]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[SGCore.LBContentContentStyle,
+      Assembly-CSharp],[UnityEngine.Sprite, UnityEngine.CoreModule]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[Meow.SoundIds, Assembly-CSharp],[Core.AudioBase,
+      Core.Tool]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[Virus.SoundIds, Assembly-CSharp],[Core.AudioBase,
+      Core.Tool]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[VolleyBall.Sound.SoundIds,
+      Assembly-CSharp],[Core.AudioBase, Core.Tool]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[Egypt.SoundIds, Assembly-CSharp],[Core.AudioBase,
+      Core.Tool]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[UnityEngine.AnimationClip,
+      UnityEngine.AnimationModule]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Collections.Generic.List`1[[UnityEngine.GameObject,
+      UnityEngine.CoreModule]], mscorlib]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[UnityEngine.Playables.PlayableDirector,
+      UnityEngine.DirectorModule]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[Core.SpineAndMaterialPair,
+      Core.Tool]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.EnumEqualityComparer`1[[AfternoonTea.GameKey_1012,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.EnumEqualityComparer`1[[SGCore.LBCategory,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.EnumEqualityComparer`1[[SGCore.LBContentContentStyle,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.EnumEqualityComparer`1[[VolleyBall.Sound.SoundIds,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.EnumEqualityComparer`1[[Meow.SoundIds, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.EnumEqualityComparer`1[[Virus.SoundIds,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.EnumEqualityComparer`1[[LoveStory.SoundIds,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.EnumEqualityComparer`1[[Egypt.SoundIds,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Func`1[[Core.HongBaoResult, Core.Activite]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: AfternoonTea.GameKey_1012, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnityEngine.GameObject, UnityEngine.CoreModule
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Core.HongBaoResult, Core.Activite
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Core.IAnimationController, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[AfternoonTea.GameKey_1012,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[SGCore.LBCategory,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[SGCore.LBContentContentStyle,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[LoveStory.SoundIds,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[Virus.SoundIds, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[Egypt.SoundIds, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[VolleyBall.Sound.SoundIds,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[Meow.SoundIds, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SGCore.LBCategory, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SGCore.LBContent, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SGCore.LBContentContentStyle, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[UnityEngine.GameObject, UnityEngine.CoreModule]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[Core.IAnimationController, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[Slotgame5.SlotReelHandlerPopUp_1005+GridInfo,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Int64, mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnityEngine.Material, UnityEngine.CoreModule
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Object, mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnityEngine.Playables.PlayableDirector, UnityEngine.DirectorModule
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Spine.Unity.SkeletonDataAsset, spine-unity
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Slotgame5.SlotReelHandlerPopUp_1005+GridInfo, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Virus.SoundIds, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Egypt.SoundIds, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Meow.SoundIds, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: VolleyBall.Sound.SoundIds, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Core.SpineAndMaterialPair, Core.Tool
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnityEngine.TextAsset, UnityEngine.CoreModule
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnityEngine.UI.Toggle, UnityEngine.UI
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Action, mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Action`1[[System.Single, mscorlib]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Core.AudioBase, Core.Tool
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnityEngine.AudioClip, UnityEngine.AudioModule
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Core.AudioInfo, Core.Tool
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Core.AudioPriority, Core.Tool
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Core.AudioType, Core.Tool
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Boolean, mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[SGCore.GameSpine+GameStateInfo,
+      Assembly-CSharp],[System.Collections.Generic.List`1[[System.String, mscorlib]],
+      mscorlib]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[SGCore.GameSpine+GameStateInfo,
+      Assembly-CSharp],[System.String, mscorlib]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[SGCore.GameTransType, Assembly-CSharp],[System.String,
+      mscorlib]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[SGCore.IGameSpine+GameTypeInfo,
+      Assembly-CSharp],[System.Collections.Generic.List`1[[System.String, mscorlib]],
+      mscorlib]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[SGCore.IGameSpine+GameTypeInfo,
+      Assembly-CSharp],[System.String[], mscorlib]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[SGCore.IGameSpine+GameTypeInfo,
+      Assembly-CSharp],[System.String, mscorlib]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[Core.Langage, Core.Data],[UnityEngine.Font,
+      UnityEngine.TextRenderingModule]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[Core.Langage, Core.Data],[System.Int32,
+      mscorlib]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[Core.Langage, Core.Data],[System.Collections.Generic.List`1[[UnityEngine.Sprite,
+      UnityEngine.CoreModule]], mscorlib]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[Core.Langage, Core.Data],[UnityEngine.Sprite,
+      UnityEngine.CoreModule]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[Core.Langage, Core.Data],[System.String,
+      mscorlib]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[Core.Langage, Core.Data],[UnityEngine.TextAnchor,
+      UnityEngine.TextRenderingModule]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[Core.Langage, Core.Data],[UnityEngine.Vector2,
+      UnityEngine.CoreModule]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[Core.Langage, Core.Data],[UnityEngine.Vector3,
+      UnityEngine.CoreModule]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[Core.SGSoundKey, Assembly-CSharp],[Core.AudioBase,
+      Core.Tool]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[LoveStory.SlotReelHandler_Tetris_6005+ContainerType,
+      Assembly-CSharp],[LoveStory.IBaseContainer, Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[LoveStory.SoundIds, Assembly-CSharp],[Core.AudioBase,
+      Core.Tool]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[Pet.SoundIds, Assembly-CSharp],[Core.AudioBase,
+      Core.Tool]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[EastDragon.SoundIds, Assembly-CSharp],[Core.AudioBase,
+      Core.Tool]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Collections.Generic.Dictionary`2[[Core.Langage,
+      Core.Data],[System.Collections.Generic.List`1[[UnityEngine.Sprite, UnityEngine.CoreModule]],
+      mscorlib]], mscorlib]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Collections.Generic.Dictionary`2[[Core.Langage,
+      Core.Data],[UnityEngine.Sprite, UnityEngine.CoreModule]], mscorlib]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Collections.Generic.List`1[[UnityEngine.Sprite,
+      UnityEngine.CoreModule]], mscorlib]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[UnityEngine.Sprite,
+      UnityEngine.CoreModule]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String,
+      mscorlib]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Core.EG_SharedData, Core.Data
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.EnumEqualityComparer`1[[SGCore.GameSpine+GameStateInfo,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.EnumEqualityComparer`1[[SGCore.GameTransType,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.EnumEqualityComparer`1[[SGCore.IGameSpine+GameTypeInfo,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.EnumEqualityComparer`1[[Core.Langage, Core.Data]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.EnumEqualityComparer`1[[Core.SGSoundKey,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.EnumEqualityComparer`1[[LoveStory.SlotReelHandler_Tetris_6005+ContainerType,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.EnumEqualityComparer`1[[EastDragon.SoundIds,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.EnumEqualityComparer`1[[Pet.SoundIds, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Single, mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SGCore.FloatTween, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Bistor.FlyFood+TextureInfo, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnityEngine.Font, UnityEngine.TextRenderingModule
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SGCore.GameSpine+GameStateInfo, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SGCore.GameSpine+SpineAnimationInfo, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SGCore.GameTransType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+      mscorlib]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: LoveStory.IBaseContainer, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[SGCore.GameSpine+GameStateInfo,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[SGCore.GameTransType,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[SGCore.IGameSpine+GameTypeInfo,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[Core.Langage, Core.Data]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[Core.SGSoundKey, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[LoveStory.SlotReelHandler_Tetris_6005+ContainerType,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[Pet.SoundIds, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[EastDragon.SoundIds,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[System.String, mscorlib]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SGCore.IGameSpine, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SGCore.IGameSpine+GameTypeInfo, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Int32, mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Core.IStepData, Core.Process
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Core.IStepEvent, Core.Process
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Core.Langage, Core.Data
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[Core.AudioInfo, Core.Tool]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[Bistor.FlyFood+TextureInfo, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[SGCore.GameSpine+GameStateInfo,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[SGCore.GameSpine+SpineAnimationInfo,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[UnityEngine.Events.PersistentCall,
+      UnityEngine.CoreModule]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[SGCore.SGGameSpine+SpineAnimationSettingInfo,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[UnityEngine.Sprite, UnityEngine.CoreModule]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[SGCore.StripSymbolInfo, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnityEngine.Events.PersistentCall, UnityEngine.CoreModule
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnityEngine.Events.PersistentCallGroup, UnityEngine.CoreModule
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SGCore.SGGameSpine+SpineAnimationSettingInfo, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Core.SGSoundKey, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Spine.Unity.SkeletonGraphic, spine-unity
+    IsCustom: 0
+    Emit: 1
+  - TypeName: LoveStory.SlotReelHandler_Tetris_6005+ContainerType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: LoveStory.SoundIds, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: EastDragon.SoundIds, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Pet.SoundIds, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnityEngine.Sprite, UnityEngine.CoreModule
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.String, mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.String[], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Text.StringBuilder, mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SGCore.StripSymbolInfo, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SGCore.SymbolPosInfo, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SGCore.SymbolPosInfo[], Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnityEngine.TextAnchor, UnityEngine.TextRenderingModule
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SGCore.UnityEvent_ExpectReelInfo, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SGCore.UnityEvent_int, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SGCore.UnityEvent_ints, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SGCore.UnityEvent_ints_int, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SGCore.UnityEvent_string, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnityEngine.Vector2, UnityEngine.CoreModule
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnityEngine.Vector3, UnityEngine.CoreModule
+    IsCustom: 0
+    Emit: 1
